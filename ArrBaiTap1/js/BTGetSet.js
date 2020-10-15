@@ -1,22 +1,17 @@
 //get
-var BluetButtonColor = document.getElementById("btn-blue");
-var REdtButtonColor = document.getElementById("btn-red");
+var BluetButtonColor = document.getElementById("js-btn-blue ");
+var REdtButtonColor = document.getElementById("js-btn-red ");
 var divblue = document.getElementById("div-color");
-
 
 // event
 BluetButtonColor.addEventListener("click",function(){
-    //alert("....");
+	// console.log('test');
     blueclick();
-   //updateResult(result);
 })
 
-
 function blueclick(){
-
-    divblue.style.bgColor= "blue";
+    divblue.style.backgroundColor = 'blue';
 };
-
 
 // update
 /* function updateResult(result){
